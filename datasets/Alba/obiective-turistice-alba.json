@@ -4,30 +4,30 @@
         {
             "id": "1",
             "name": "Satul Geamăna",
-            "description": "Geamăna este un sat în comuna Lupșa din județul Alba, Transilvania, România. În urma operațiunilor miniere de la Roșia Poieni, satul a fost transformat în lac de decantare și acoperit de steril, printr-o serie de evenimente cunoscute drept dezastrul natural de la Geamăna.",
+            "description": "Geamăna este un sat în comuna Lupșa din județul Alba, Transilvania, România. În urma operațiunilor miniere de la Roșia Poieni, satul a fost transformat în lac de decantare și acoperit de steril, printr-o serie de evenimente cunoscute drept dezastrul naturall de la Geamăna.",
             "location": {
                 "county": "Alba",
                 "city": "Lupșa",
-                "latitude": "﻿46.32806",
+                "latitude": "46.32806",
                 "longitude": "23.21000"
             },
-            "category": "natura",
+            "category": "natural",
 			"activities": ["drumeție", "fotografie", "observare natură"],
-            "relevant_for": ["drumeție", "familie", "fotografie", "studiu"],
+            "relevant_for": ["drumeție", "familie", "fotografie"],
             "accommodation": ["Pensiunea Carmen", "Roua Muntelui"],
             "nearby_attractions": ["Mănăstirea Lupșa", "Cascada Sipote", "Peștera Porțile Zmeilor"]
         },
         {
-            "id": "2"
+            "id": "2",
             "name": "Izbucul Tăuzului",
-            "description": "Izbucul Tăuzului este o arie protejată, cu o suprafaţă de un hectar, situată în vestul Transilvaniei, în Munții Bihorului, pe teritoriul satului Hodobana, comuna Arieșeni, județul Alba  Rezervația naturală, inclusă în Parcul Natural Apuseni, este o zonă montană pe al cărui teritoriu se află un izvor cu activitate intermitentă (izbuc), ce funcționează pe principiul sifonului, cu o adâncime de 85 m. La baza unui perete stâncos, apele intrate prin peșterile Coiba Mică și Coiba Mare, ies la suprafaţă şi formează Izbucul Tăuz. Accesul către ochiul de apă este destul de ușor. Din centrul comunei Gârda de Sus se urmează cursul Văii Gârda, până se ajunge la izbuc.",
+            "description": "Izbucul Tăuzului este o arie protejată, cu o suprafaţă de un hectar, situată în vestul Transilvaniei, în Munții Bihorului, pe teritoriul satului Hodobana, comuna Arieșeni, județul Alba  Rezervația naturallă, inclusă în Parcul naturall Apuseni, este o zonă montană pe al cărui teritoriu se află un izvor cu activitate intermitentă (izbuc), ce funcționează pe principiul sifonului, cu o adâncime de 85 m. La baza unui perete stâncos, apele intrate prin peșterile Coiba Mică și Coiba Mare, ies la suprafaţă şi formează Izbucul Tăuz. Accesul către ochiul de apă este destul de ușor. Din centrul comunei Gârda de Sus se urmează cursul Văii Gârda, până se ajunge la izbuc.",
             "location": {
                 "county": "Alba",
                 "city": "Arieșeni",
                 "latitude": "46.47611",
                 "longitude": "22.75778"
             },
-            "category": "natura",
+            "category": "natural",
 			"activities": ["drumeție", "fotografie", "plimbare"],
             "relevant_for": ["drumeție", "familie", "fotografie"],
             "accommodation": ["Cabana Poiana Dealul Frumos", "Vraja muntelui"],
@@ -43,7 +43,7 @@
                 "latitude": "45.9553",
                 "longitude": "23.5737"
             },
-            "category": "natura",
+            "category": "natural",
 			"activities": ["drumeție", "fotografie", "plimbare", "explorare"],
             "relevant_for": ["drumeție", "familie", "fotografie", "geologie"],
             "accommodation": ["Hotel Transilvania", "Hotel Leul de Aur"],
@@ -52,14 +52,14 @@
         {
             "id": "4",
             "name": "Cheile Vălișoarei sau Aiudului",
-            "description": "Cheile Vălișoarei sau Cheile Aiudului se afla in judetul Alba, de-a lungul muntilor Apuseni si sunt considerate printre cele mai impresionante chei din bazinul Vaii Aiudului.  Altitudinea maxima in Cheile Aiudului este de 779 m iar cea minima, este de 425 m. In urma procesului de erodare a scoartei terestre, s-au format patru colturi calcaroase, Coltul Bogza si Coltul Vilii, asezate in partea dreapta iar in partea stanga se gasesc Coltul Cetatii si Doltul Diacului. In peretii cheilor, pe ambii versanti se gasesc pesteri si alte formatiuni carstice: lapiezuri, bolti, arcade. Pesterile adapostesc specii rare de nevertebrate si lilieci. In dreapta cheilor, cum se vine dinspre Aiud, se afla stanca numita Cetate, unde in secolul al XII-lea documentele atesta existenta cetatii Zachedeu. Cheile Aiudului mai sunt cunoscute si sub numele de Cheile Vaisoarei sau Cheile Poienii. Cheile Aiudului au fost declarate rezervatie naturala geomorfologica si botanica datorita morfologiei terenului ce ofera un peisaj salbatic dar si datorita florei specifice.",
+            "description": "Cheile Vălișoarei sau Cheile Aiudului se afla in judetul Alba, de-a lungul muntilor Apuseni si sunt considerate printre cele mai impresionante chei din bazinul Vaii Aiudului.  Altitudinea maxima in Cheile Aiudului este de 779 m iar cea minima, este de 425 m. In urma procesului de erodare a scoartei terestre, s-au format patru colturi calcaroase, Coltul Bogza si Coltul Vilii, asezate in partea dreapta iar in partea stanga se gasesc Coltul Cetatii si Doltul Diacului. In peretii cheilor, pe ambii versanti se gasesc pesteri si alte formatiuni carstice: lapiezuri, bolti, arcade. Pesterile adapostesc specii rare de nevertebrate si lilieci. In dreapta cheilor, cum se vine dinspre Aiud, se afla stanca numita Cetate, unde in secolul al XII-lea documentele atesta existenta cetatii Zachedeu. Cheile Aiudului mai sunt cunoscute si sub numele de Cheile Vaisoarei sau Cheile Poienii. Cheile Aiudului au fost declarate rezervatie naturalla geomorfologica si botanica datorita morfologiei terenului ce ofera un peisaj salbatic dar si datorita florei specifice.",
             "location": {
                 "county": "Alba",
                 "city": "Livezile",
                 "latitude": "46.38859",
                 "longitude": "23.556134"
             },
-            "category": "natura",
+            "category": "natural",
 			"activities": ["drumeție", "fotografie", "plimbare", "explorare", "speologie"],
             "relevant_for": ["drumeție", "familie", "fotografie", "geologie", "speologie"],
             "accommodation": ["Casa patru anotimpuri", "Cabana viselor"],
@@ -72,10 +72,10 @@
             "location": {
                 "county": "Alba",
                 "city": "Oașa",
-                "latitude": "﻿45.588",
+                "latitude": "45.588",
                 "longitude": "23.628"
             },
-            "category": "natura",
+            "category": "natural",
 			"activities": ["drumeție", "fotografie", "plimbare", "pescuit"],
             "relevant_for": ["drumeție", "familie", "fotografie", "pescuit"],
             "accommodation": ["Pensiunea Ayana", "Cabana Oasa"],
@@ -91,7 +91,7 @@
                 "latitude": "46.398611111111",
                 "longitude": "23.42"
             },
-            "category": "natura",
+            "category": "natural",
 			"activities": ["drumeție", "fotografie", "plimbare", "pescuit"],
             "relevant_for": ["drumeție", "familie", "fotografie", "pescuit"],
             "accommodation": ["Pensiunea Carmen", "Pensiunea Maria"],
@@ -107,9 +107,9 @@
                 "latitude": "45.9553",
                 "longitude": "23.5737"
             },
-            "category": "istorie",
-			"activities": ["fotografie", "plimbare", "istorie", "city break"],
-            "relevant_for": ["familie", "fotografie", "istorie", "city break"],
+            "category": "istoric",
+			"activities": ["fotografie", "plimbare", "istoric", "city break"],
+            "relevant_for": ["familie", "fotografie", "istoric", "city break"],
             "accommodation": ["Hotel Transilvania", "Hotel Leul de Aur"],
             "nearby_attractions": ["Râpa Roșie"]
         },
@@ -123,9 +123,9 @@
                 "latitude": "46.3821",
                 "longitude": "23.86000"
             },
-            "category": "istorie",
-			"activities": ["fotografie", "plimbare", "istorie"],
-            "relevant_for": ["familie", "fotografie", "istorie"],
+            "category": "istoric",
+			"activities": ["fotografie", "plimbare", "istoric"],
+            "relevant_for": ["familie", "fotografie", "istoric"],
             "accommodation": ["Hotel River", "Pensiunea Milexim"],
             "nearby_attractions": []
         },
@@ -136,12 +136,12 @@
             "location": {
                 "county": "Alba",
                 "city": "Alba Iulia",
-                "latitude": "﻿46.07139",
+                "latitude": "46.07139",
                 "longitude": "23.57306"
             },
-            "category": "cultura",
-			"activities": ["fotografie", "plimbare", "copii", "city break"],
-            "relevant_for": ["familie", "fotografie", "copii", "city break"],
+            "category": "cultural",
+			"activities": ["fotografie", "plimbare", "activitati pentru copii", "city break"],
+            "relevant_for": ["familie", "fotografie", "activitati pentru copii", "city break"],
             "accommodation": ["Hotel Transilvania", "Hotel Elisabeta", "Hotel Cetate"],
             "nearby_attractions": ["Muzeul Național al Unirii din orașul Alba Iulia"]
         },
@@ -152,30 +152,30 @@
             "location": {
                 "county": "Alba",
                 "city": "Alba Iulia",
-                "latitude": "﻿46.07139",
+                "latitude": "46.07139",
                 "longitude": "23.57306"
             },
-            "category": "istorie",
-			"activities": ["fotografie", "plimbare", "istorie", "city break"],
-            "relevant_for": ["familie", "fotografie", "istorie", "city break"],
+            "category": "istoric",
+			"activities": ["fotografie", "plimbare", "istoric", "city break"],
+            "relevant_for": ["familie", "fotografie", "istoric", "city break"],
             "accommodation": ["Hotel Transilvania", "Hotel Elisabeta", "Hotel Cetate"],
             "nearby_attractions": ["Muzeul Național al Unirii din orașul Alba Iulia"]
         },
         {
             "id": "11",
             "name": "Muzeul Național al Unirii din orașul Alba Iulia",
-            "description": "Muzeul National al Unirii deţine două clădiri cu valoare de monument istoric.  Istoric Muzeul Național al Unirii din Alba Iulia: Muzeul din Alba Iulia a fost inaugurat în 1888 din iniţiativă Societăţii de istorie, arheologie şi ştiinţele naturii din Comitatul Alba Inferioară, avându-l ca director pe renumitul arheolog Adalbert Cserny. În 1929, sub egida ASTREI, a fost organizat ca Muzeu al Unirii. Bogatelor colecţii arheologice li s-au adăugat piese valoroase referitoare la istoria modernă a românilor. În 1992 a devenit Muzeul Naţional al Unirii subordonat direct Ministerului Culturii. Muzeul prezintă publicului arheologie: preistorică (ceramică, unelte şi arme din piatră, bronz, fier)\ dacica – provenind de la cetăţile dacice Craiva, Cugir şi Căpâlna (ceramică, monumente, unelte, arme şi podoabe din fier, bronz, argint) romana – provenind din marele centru urban Apulum (monumente epigrafice, sculpturale, gliptica, numismatica, vase ceramice, lucerne, unelte şi arme din fier, obiecte de podoabă) medievală (ceramică, bijuterii şi obiecte din aur, argint şi bronz din secolele VIII – X din necropolele dezvelite la Alba Iulia, Blandiana şi Ghirbom, cahle, arme, sigilii nobiliare şi ale oraşului Alba Iulia) istorie (documente, fotografii şi obiecte memoriale legate de Revoluţia de la 1848, Memorandum, Unirea de la 1 Decembrie 1918) periodice – cărţi; colecţii de etnografie şi arta populară (port, ţesături, ceramică, icoane pe lemn şi sticlă, obiecte din metal şi lemn)\ numismatica (antică, medievală şi modernă) bibliotecă (55.000 volume).",
+            "description": "Muzeul Național al Unirii deține două clădiri cu valoare de monument istoric. Muzeul din Alba Iulia a fost inaugurat în 1888 din inițiativa Societății de istoric, arheologie și științele naturii din Comitatul Alba Inferioară, avându-l ca director pe renumitul arheolog Adalbert Cserny. În 1929, sub egida ASTREI, a fost organizat ca Muzeu al Unirii. Bogatelor colecții arheologice li s-au adăugat piese valoroase referitoare la istoria modernă a românilor. În 1992 a devenit Muzeul Național al Unirii, subordonat direct Ministerului Culturii. Muzeul prezintă publicului arheologie preistorică (ceramică, unelte și arme din piatră, bronz, fier), dacică – provenind de la cetățile dacice Craiva, Cugir și Căpâlna (ceramică, monumente, unelte, arme și podoabe din fier, bronz, argint), romană – provenind din marele centru urban Apulum (monumente epigrafice, sculpturale, gliptică, numismatică, vase ceramice, lucerne, unelte și arme din fier, obiecte de podoabă), medievală (ceramică, bijuterii și obiecte din aur, argint și bronz din secolele VIII – X din necropolele dezvelite la Alba Iulia, Blandiana și Ghirbom, cahle, arme, sigilii nobiliare și ale orașului Alba Iulia), istoric (documente, fotografii și obiecte memoriale legate de Revoluția de la 1848, Memorandum, Unirea de la 1 Decembrie 1918), periodice – cărți, colecții de etnografie și artă populară (port, țesături, ceramică, icoane pe lemn și sticlă, obiecte din metal și lemn), numismatică (antică, medievală și modernă), bibliotecă (55.000 volume).",
             "location": {
                 "county": "Alba",
                 "city": "Alba Iulia",
-                "latitude": "﻿46.07139",
+                "latitude": "46.07139",
                 "longitude": "23.57306"
             },
-            "category": "istorie",
-			"activities": ["fotografie", "plimbare", "istorie", "city break"],
-            "relevant_for": ["familie", "fotografie", "istorie", "city break"],
+            "category": "istoric",
+            "activities": ["fotografie", "plimbare", "istoric", "city break"],
+            "relevant_for": ["familie", "fotografie", "istoric", "city break"],
             "accommodation": ["Hotel Transilvania", "Hotel Elisabeta", "Hotel Cetate"],
-            "nearby_attractions": ["Cetatea Alba Carolina", "Catedrala Romano Catolică"]
+            "nearby_attractions": ["Cetatea Alba Carolina", "Catedrala Romano-Catolică"]
         },
         {
             "id": "12",
@@ -184,12 +184,12 @@
             "location": {
                 "county": "Alba",
                 "city": "Alba Iulia",
-                "latitude": "﻿46.07139",
+                "latitude": "46.07139",
                 "longitude": "23.57306"
             },
-            "category": "istorie",
-			"activities": ["fotografie", "plimbare", "istorie", "city break"],
-            "relevant_for": ["familie", "fotografie", "istorie", "city break"],
+            "category": "istoric",
+			"activities": ["fotografie", "plimbare", "istoric", "city break"],
+            "relevant_for": ["familie", "fotografie", "istoric", "city break"],
             "accommodation": ["Hotel Transilvania", "Hotel Elisabeta", "Hotel Cetate"],
             "nearby_attractions": ["Muzeul Național al Unirii din orașul Alba Iulia", "Catedrala Romano Catolică"]
         },
@@ -200,12 +200,12 @@
             "location": {
                 "county": "Alba",
                 "city": "Alba Iulia",
-                "latitude": "﻿46.07139",
+                "latitude": "46.07139",
                 "longitude": "23.57306"
             },
-            "category": "religie",
-			"activities": ["fotografie", "plimbare", "istorie", "city break"],
-            "relevant_for": ["familie", "fotografie", "istorie", "city break"]
+            "category": "religios",
+			"activities": ["fotografie", "plimbare", "istoric", "city break"],
+            "relevant_for": ["familie", "fotografie", "istoric", "city break"],
             "accommodation": ["Hotel Transilvania", "Hotel Elisabeta", "Hotel Cetate"],
             "nearby_attractions": ["Muzeul Național al Unirii din orașul Alba Iulia", "Cetatea Alba Carolina"]
         },
@@ -216,24 +216,28 @@
             "location": {
                 "county": "Alba",
                 "city": "Alba Iulia",
-                "latitude": "﻿46.07139",
+                "latitude": "46.07139",
                 "longitude": "23.57306"
             },
-            "category": "religie",
+            "category": "religios",
+            "activities": ["fotografie", "plimbare", "istoric", "religios"],
+            "relevant_for": ["familie", "fotografie", "istoric", "religios"],
             "accommodation": ["Hotel Transilvania", "Hotel Elisabeta", "Hotel Cetate"],
             "nearby_attractions": ["Catedrala Romano Catolică", "Muzeul Național al Unirii din orașul Alba Iulia", "Cetatea Alba Carolina"]
         },
         {
             "id": "15",
             "name": "Biblioteca Batthyaneum",
-            "description": "Biblioteca Batthyaneum din Alba Iulia reprezintă un obiectiv turistic însemnat al localității Alba Iulia, fiind un edificiu destul de vechi, adăpostind colecții de carte importante. În interiorul său, aceasta adăpostește colecții de carte impresionante – aici regăsindu-se cele mai vechi tipărituri ale țării. Așadar, iubitorii de carte si de istorie se pot delecta cu cele mai rare si valoroase manuscrise. Putem aminti: Codex Aureus, Psaltirea lui David, Evangheliarul de la Lorsch, Biblia Sacra, Codex Burgundus, Biblia lui Serban Cantacuzino, Noul Testament de la Belgrad, Palia de la Orastie. În anul 1792 aici a fost fondat primul observator astronomic al țării. Biblioteca Batthyaneum din Alba Iulia a luat ființă pe vechiul sediu al bisericii trinitarienilor. Începand cu anul 1780, biserica a fost desființată, în sediul sau instalandu-se o vestită bibliotecă. Initiativa infiintarii bibliotecii i-a apartinut episcopului Transilvaniei Ignatiu Bathyani. Acesta era cunoscut printre toti locuitorii orasului, dar si in intreg tinutul arcului carpatic ca fiind un mare iubitor de carte, arta si cultura.",
+            "description": "Biblioteca Batthyaneum din Alba Iulia reprezintă un obiectiv turistic însemnat al localității Alba Iulia, fiind un edificiu destul de vechi, adăpostind colecții de carte importante. În interiorul său, aceasta adăpostește colecții de carte impresionante – aici regăsindu-se cele mai vechi tipărituri ale țării. Așadar, iubitorii de carte si de istoric se pot delecta cu cele mai rare si valoroase manuscrise. Putem aminti: Codex Aureus, Psaltirea lui David, Evangheliarul de la Lorsch, Biblia Sacra, Codex Burgundus, Biblia lui Serban Cantacuzino, Noul Testament de la Belgrad, Palia de la Orastie. În anul 1792 aici a fost fondat primul observator astronomic al țării. Biblioteca Batthyaneum din Alba Iulia a luat ființă pe vechiul sediu al bisericii trinitarienilor. Începand cu anul 1780, biserica a fost desființată, în sediul sau instalandu-se o vestită bibliotecă. Initiativa infiintarii bibliotecii i-a apartinut episcopului Transilvaniei Ignatiu Bathyani. Acesta era cunoscut printre toti locuitorii orasului, dar si in intreg tinutul arcului carpatic ca fiind un mare iubitor de carte, arta si cultural.",
             "location": {
                 "county": "Alba",
                 "city": "Alba Iulia",
-                "latitude": "﻿46.07139",
+                "latitude": "46.07139",
                 "longitude": "23.57306"
             },
-            "category": "cultura",
+            "category": "cultural",
+            "activities": ["cultural", "studiere manuscrise", "sa imprumut carti", "educatie", "acces internet"],
+            "relevant_for": ["cultural", "studiere manuscrise", "educatie", "sa imprumut carti", "acces internet"],
             "accommodation": ["Hotel Transilvania", "Hotel Elisabeta", "Hotel Cetate"],
             "nearby_attractions": ["Catedrala Romano Catolică", "Muzeul Național al Unirii din orașul Alba Iulia", "Cetatea Alba Carolina"]
         },
@@ -247,9 +251,9 @@
                 "latitude": "46.3108",
                 "longitude": "23.7176"
             },
-            "category": "istorie",
-			"activities": ["fotografie", "plimbare", "istorie"],
-            "relevant_for": ["familie", "fotografie", "istorie"],
+            "category": "istoric",
+			"activities": ["fotografie", "plimbare", "istoric"],
+            "relevant_for": ["familie", "fotografie", "istoric"],
             "accommodation": ["Hotel Magnolia", "Casa domeniile vinului"],
             "nearby_attractions": ["Cetatea Trascăului"]
         },
@@ -263,7 +267,7 @@
                 "latitude": "46.3587",
                 "longitude": "22.9401"
             },
-            "category": "natura",
+            "category": "natural",
 			"activities": ["fotografie", "plimbare", "pescuit", "picnic"],
             "relevant_for": ["familie", "fotografie", "pescuit", "picnic"],
             "accommodation": ["Pensiunea Apuseni"],
@@ -276,44 +280,44 @@
             "location": {
                 "county": "Alba",
                 "city": "Șugag",
-                "latitude": "﻿45.5707961",
+                "latitude": "45.5707961",
                 "longitude": "23.5694096"
             },
-            "category": "religie",
-			"activities": ["fotografie", "plimbare", "religie"],
-            "relevant_for": ["familie", "fotografie", "religie"],
+            "category": "religios",
+			"activities": ["fotografie", "plimbare", "religios"],
+            "relevant_for": ["familie", "fotografie", "religios"],
             "accommodation": ["Casa Transalpina", "Vila Rodica"],
             "nearby_attractions": ["Cetatea Trascăului"]
         },
         {
             "id": "19",
             "name": "Peştera Huda lui Papara",
-            "description": "Pestera Huda lui Papara se află situată în Munţii Trascăului, fiind una dintre cele mai însemnate formaţiuni de acest tip din întreaga ţară. Potrivit speologilor, peştera este cea mai lungă, dar şi cea mai dificilă din România, având în interiorul său un curs subteran destul de lung şi o veritabila cascadă. Denumirea peşterii a fost dată folosindu-se de regionalismul „huda”care înseamnă adăpost, groapă, gaură în pământ, iar „papara”de la conducătorul creştin „papa”. Aceasta simbolizează adăpostul conducătorului religios. Intrarea în peşteră se face la o altitudine de circa 567 metri. În interior vom putea admira un veritabil depozit de chiropterit. În drumul prin peşteră, turiştii vor trebui sa escaladeze Baricada Mare. Tot aici ei vor ajunge în zona „La lanţuri”, dar şi în Labirintul Ludusan ori în Sala Tăcerii. Groapa Leilor are o denivelare de 102 metri. Dinspre Sala Crucii se poate ajunge la Cascada Gemanată. Foarte aproape de ea este capătul peşterii, intitulat de localnici drept „Lumea Frământată”.  Istoric Peştera Huda lui Papara din satul Sub Piatră: Pestera Huda lui Papara a fost deschisă spre vizitare începand cu anul 1986. Cu toate acestea, viiturile au distrus amenajarea sa, în prezent putând fi strabătută numai de specialişti experimentaţi. Obiective principale de vizitat Peştera Huda lui Papara: • Pe lângă tabloul natural din peşteră în care există şi o cascadă, aici se regăseşte cea mai mare colonie de lilieci din întreaga Europa, specii numeroase cu înfăţişări variate. În interior poate fi admirată şi Sala Minunilor, ce are o înălţime de circa 102 metri.",
+            "description": "Pestera Huda lui Papara se află situată în Munţii Trascăului, fiind una dintre cele mai însemnate formaţiuni de acest tip din întreaga ţară. Potrivit speologilor, peştera este cea mai lungă, dar şi cea mai dificilă din România, având în interiorul său un curs subteran destul de lung şi o veritabila cascadă. Denumirea peşterii a fost dată folosindu-se de regionalismul „huda”care înseamnă adăpost, groapă, gaură în pământ, iar „papara”de la conducătorul creştin „papa”. Aceasta simbolizează adăpostul conducătorului religios. Intrarea în peşteră se face la o altitudine de circa 567 metri. În interior vom putea admira un veritabil depozit de chiropterit. În drumul prin peşteră, turiştii vor trebui sa escaladeze Baricada Mare. Tot aici ei vor ajunge în zona „La lanţuri”, dar şi în Labirintul Ludusan ori în Sala Tăcerii. Groapa Leilor are o denivelare de 102 metri. Dinspre Sala Crucii se poate ajunge la Cascada Gemanată. Foarte aproape de ea este capătul peşterii, intitulat de localnici drept „Lumea Frământată”.  Istoric Peştera Huda lui Papara din satul Sub Piatră: Pestera Huda lui Papara a fost deschisă spre vizitare începand cu anul 1986. Cu toate acestea, viiturile au distrus amenajarea sa, în prezent putând fi strabătută numai de specialişti experimentaţi. Obiective principale de vizitat Peştera Huda lui Papara: • Pe lângă tabloul naturall din peşteră în care există şi o cascadă, aici se regăseşte cea mai mare colonie de lilieci din întreaga Europa, specii numeroase cu înfăţişări variate. În interior poate fi admirată şi Sala Minunilor, ce are o înălţime de circa 102 metri.",
             "location": {
                 "county": "Alba",
                 "city": "Sălciua",
                 "latitude": "46.398611111111",
                 "longitude": "23.42"
             },
-            "category": "natura",
+            "category": "natural",
 			"activities": ["drumeție", "fotografie", "plimbare", "speologie"],
-            "relevant_for": ["drumeție", "familie", "fotografie", "speologie"]
+            "relevant_for": ["drumeție", "familie", "fotografie", "speologie"],
             "accommodation": ["Pensiunea Carmen", "Pensiunea Maria"],
             "nearby_attractions": ["Peștera Porțile Zmeilor", "Cascada Sipote"]
         },
         {
             "id": "20",
             "name": "Peștera Porțile Zmeilor",
-            "description": "Cea mai veche peștera din muntii Trascau, Pestera Porțile Zmeilor reprezinta unul dintre obiectivele pe care turistii nu il trec cu vederea atunci cand se aventureaza in zona. Situata in comuna Sălciua, judetul Alba, la o altitudine de 1.150 m, Pestera Porțile Zmeilor are o lungime interioara de 125 m. Numele pesterii provine de la podul natural Poarta Zmeilor, care se afla la 5 m de intrarea in pestera. Acesta a rezultat in urma eroziunii, coroziunii si dizolvarii rocilor de calcar. In interiorul pesterii exista stalactite, stalacmite, scurgeri parietale, gururi, draperii, hornuri si depuneri de montmilch. De asemenea, in pestera se gasesc paianjeni, pseudoscorpioni, gasteropode, coleoptere chiroptere, carabide, precum si diverse rozatoare. O incursiune in Pestera Poarta Zmeilor poate fi interesanta si provocatoare, mai ales daca tinem cont de faptul ca podeaua este alunecoasa, iar bezna e totala.",
+            "description": "Cea mai veche peștera din muntii Trascau, Pestera Porțile Zmeilor reprezinta unul dintre obiectivele pe care turistii nu il trec cu vederea atunci cand se aventureaza in zona. Situata in comuna Sălciua, judetul Alba, la o altitudine de 1.150 m, Pestera Porțile Zmeilor are o lungime interioara de 125 m. Numele pesterii provine de la podul naturall Poarta Zmeilor, care se afla la 5 m de intrarea in pestera. Acesta a rezultat in urma eroziunii, coroziunii si dizolvarii rocilor de calcar. In interiorul pesterii exista stalactite, stalacmite, scurgeri parietale, gururi, draperii, hornuri si depuneri de montmilch. De asemenea, in pestera se gasesc paianjeni, pseudoscorpioni, gasteropode, coleoptere chiroptere, carabide, precum si diverse rozatoare. O incursiune in Pestera Poarta Zmeilor poate fi interesanta si provocatoare, mai ales daca tinem cont de faptul ca podeaua este alunecoasa, iar bezna e totala.",
             "location": {
                 "county": "Alba",
                 "city": "Sălciua",
                 "latitude": "46.398611111111",
                 "longitude": "23.42"
             },
-            "category": "natura",
+            "category": "natural",
 			"activities": ["drumeție", "fotografie", "plimbare", "speologie"],
-            "relevant_for": ["drumeție", "familie", "fotografie", "speologie"]
+            "relevant_for": ["drumeție", "familie", "fotografie", "speologie"],
             "accommodation": ["Pensiunea Carmen", "Pensiunea Maria"],
             "nearby_attractions": ["Peştera Huda lui Papara", "Cascada Sipote"]
         },
@@ -327,25 +331,25 @@
                 "latitude": "",
                 "longitude": ""
             },
-            "category": "istorie",
-			"activities": ["drumeție", "fotografie", "plimbare", "istorie"],
-            "relevant_for": ["drumeție", "familie", "fotografie", "istorie"]
+            "category": "istoric",
+			"activities": ["drumeție", "fotografie", "plimbare", "istoric"],
+            "relevant_for": ["drumeție", "familie", "fotografie", "istoric"],
             "accommodation": ["Casa 4 anotimpuri", "Pensiunea Soarelui"],
             "nearby_attractions": ["Cetatea Aiudului"]
         },
         {
             "id": "22",
             "name": "Mănăstirea Lupșa",
-            "description": "Mânăstirea Lupșa se afla situată în județul Alba, în vârful Munților Apuseni. În prezent, Mânăstirea Lupșa a fost reconsolidată, reușind astfel să se păstreze amprentele istoriei destul de bine, asigurându-i-se acesteia o durată de viață mai mare. Istoric Mânăstirea Lupșa din satul Mânăstire: Vechimea Mânăstirii Lupșa este destul de mare, peste aceasta trecând sute de ierni mohorâte și veri călduroase. Potrivit cercetătorilor, mânăstirea Lupșa este cea mai veche mânăstire din Munții Apuseni, fiind clădită în anul 1429 de boierul Stanislav, ce aparținea familiei Lupșa. În timpul regimurilor totalitare ce au străbătut teritoriul țării, dar și sub dominația Imperiului Habsburgic, Mânăstirea Lupșa a primit diverse lovituri. În secolul al XVIII-lea mânăstirea Lupșa urma să fie dărâmată, însă episcopul Petru Paul Aron s-a împotrivit acestei măsuri, reușind astfel să o declare monument storic. În anul 1820, mânăstirea Lupșa a fost dată în administrarea Bisericii Greco-catolice, urmând ca în anul 1948, aceasta să redevină mânăstire cu specific creștin ortodox. O vechime considerabilă au avut și chiliile construite în jurul Mânăstirii. În trecut, în interiorul său puteau fi educați copiii din regiune, aceasta servind drept școală, dar și ca un vestit atelier de pictură bisericească. Inițial, mânăstirea Lupșa a fost construită doar din altar și naos, urmând ca în anul 1810 să îi fie adăugate turla și pronaosul. Icoanele mânăstirii Lupșa datează din secolul al XVII-lea.",
+            "description": "Mânăstirea Lupșa se afla situată în județul Alba, în vârful Munților Apuseni. În prezent, Mânăstirea Lupșa a fost reconsolidată, reușind astfel să se păstreze amprentele istorici destul de bine, asigurându-i-se acesteia o durată de viață mai mare. Istoric Mânăstirea Lupșa din satul Mânăstire: Vechimea Mânăstirii Lupșa este destul de mare, peste aceasta trecând sute de ierni mohorâte și veri călduroase. Potrivit cercetătorilor, mânăstirea Lupșa este cea mai veche mânăstire din Munții Apuseni, fiind clădită în anul 1429 de boierul Stanislav, ce aparținea familiei Lupșa. În timpul regimurilor totalitare ce au străbătut teritoriul țării, dar și sub dominația Imperiului Habsburgic, Mânăstirea Lupșa a primit diverse lovituri. În secolul al XVIII-lea mânăstirea Lupșa urma să fie dărâmată, însă episcopul Petru Paul Aron s-a împotrivit acestei măsuri, reușind astfel să o declare monument storic. În anul 1820, mânăstirea Lupșa a fost dată în administrarea Bisericii Greco-catolice, urmând ca în anul 1948, aceasta să redevină mânăstire cu specific creștin ortodox. O vechime considerabilă au avut și chiliile construite în jurul Mânăstirii. În trecut, în interiorul său puteau fi educați copiii din regiune, aceasta servind drept școală, dar și ca un vestit atelier de pictură bisericească. Inițial, mânăstirea Lupșa a fost construită doar din altar și naos, urmând ca în anul 1810 să îi fie adăugate turla și pronaosul. Icoanele mânăstirii Lupșa datează din secolul al XVII-lea.",
             "location": {
                 "county": "Alba",
                 "city": "Lupșa",
                 "latitude": "46.365505",
                 "longitude": "23.193544"
             },
-            "category": "religie",
-			"activities": ["fotografie", "plimbare", "religie"],
-            "relevant_for": ["familie", "fotografie", "religie"],
+            "category": "religios",
+			"activities": ["fotografie", "plimbare", "religios"],
+            "relevant_for": ["familie", "fotografie", "religios"],
             "accommodation": ["Pensiunea Casa Apuseana"],
             "nearby_attractions": ["Peștera Porțile Zmeilor", "Peştera Huda lui Papara"]
         },
@@ -356,10 +360,10 @@
             "location": {
                 "county": "Alba",
                 "city": "Gârda de Sus",
-                "latitude": "﻿46.506056",
+                "latitude": "46.506056",
                 "longitude": "22.817305"
             },
-            "category": "natura",
+            "category": "natural",
 			"activities": ["fotografie", "plimbare", "speologie", "drumetii"],
             "relevant_for": ["familie", "fotografie", "speologie", "drumetii"],
             "accommodation": ["Casa Brazilor", "Casa Silvia"],
@@ -372,15 +376,15 @@
             "location": {
                 "county": "Alba",
                 "city": "Gârda de Sus",
-                "latitude": "﻿46.506056",
+                "latitude": "46.506056",
                 "longitude": "22.817305"
             },
-            "category": "natura",
+            "category": "natural",
 			"activities": ["fotografie", "plimbare", "speologie", "drumetii"],
             "relevant_for": ["familie", "fotografie", "speologie", "drumetii"],
             "accommodation": ["Casa Brazilor", "Casa Silvia"],
             "nearby_attractions": ["Peștera Hodobana", "Peștera Ghețarul de la Scărișoara"]
-        }
+        },
         {
             "id": "25",
             "name": "Peștera Hodobana",
@@ -391,10 +395,33 @@
                 "latitude": "46.47611",
                 "longitude": "22.75778"
             },
-            "category": "natura",
-			"activities": ["fotografie", "plimbare", "speologie", "drumetii", "ski", "snowboard", "mountain biking"],
-            "relevant_for": ["familie", "fotografie", "speologie", "drumetii", "ski", "snowboard", "moutain biking"],
-            "accommodation": ["Casa Natalia", "Casa Arnica"],
-            "nearby_attractions": ["Peștera Ghețarul de la Scărișoara", "Peștera Poarta lui Ionele"]
+            "category": "natural",
+            "activities": [
+                "fotografie",
+                "plimbare",
+                "speologie",
+                "drumetii",
+                "ski",
+                "snowboard",
+                "mountain biking"
+            ],
+            "relevant_for": [
+                "familie",
+                "fotografie",
+                "speologie",
+                "drumetii",
+                "ski",
+                "snowboard",
+                "moutain biking"
+            ],
+            "accommodation": [
+                "Casa Natalia",
+                "Casa Arnica"
+            ],
+            "nearby_attractions": [
+                "Peștera Ghețarul de la Scărișoara",
+                "Peștera Poarta lui Ionele"
+            ]
         }
+        ]
 }
