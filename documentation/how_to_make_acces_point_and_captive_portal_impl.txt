@@ -1,0 +1,137 @@
+Acum că ai acces SSH la Raspberry Pi, poți să îl configurezi ca access point cu captive portal. Vom face acest lucru în trei pași:
+
+Configurarea Raspberry Pi ca access point (hotspot Wi-Fi)
+Setarea unui server web pentru redirecționare (captive portal)
+Capturarea traficului HTTP pentru a forța deschiderea paginii (DNS hijacking)
+1. Configurarea Raspberry Pi ca Access Point
+
+În primul rând, trebuie să configurăm Raspberry Pi să funcționeze ca un Wi-Fi Access Point.
+
+Instalează pachetele necesare
+Conectează-te prin SSH și rulează:
+
+sudo apt update && sudo apt install -y hostapd dnsmasq
+Acestea sunt:
+
+hostapd → creează rețeaua Wi-Fi
+dnsmasq → configurează DHCP și DNS
+După instalare, dezactivează serviciile până terminăm configurarea:
+
+sudo systemctl stop hostapd
+sudo systemctl stop dnsmasq
+Configurează interfața Wi-Fi
+Editează fișierul de rețea:
+
+sudo nano /etc/dhcpcd.conf
+Adaugă la sfârșit:
+
+interface wlan0
+static ip_address=192.168.4.1/24
+nohook wpa_supplicant
+Salvează cu Ctrl + X, apoi Y și Enter.
+
+Repornește serviciul:
+
+sudo systemctl restart dhcpcd
+Configurează DHCP și DNS (dnsmasq)
+Backup la configurația inițială:
+
+sudo mv /etc/dnsmasq.conf /etc/dnsmasq.conf.orig
+Creează un nou fișier:
+
+sudo nano /etc/dnsmasq.conf
+Adaugă:
+
+interface=wlan0
+dhcp-range=192.168.4.2,192.168.4.200,255.255.255.0,24h
+Salvează și repornește serviciul:
+
+sudo systemctl restart dnsmasq
+Configurează hostapd
+Editează fișierul de configurare:
+
+sudo nano /etc/hostapd/hostapd.conf
+Adaugă:
+
+interface=wlan0
+ssid=RaspberryPi-AP
+hw_mode=g
+channel=7
+wmm_enabled=0
+macaddr_acl=0
+auth_algs=1
+ignore_broadcast_ssid=0
+wpa=2
+wpa_passphrase=parola_wifi
+wpa_key_mgmt=WPA-PSK
+rsn_pairwise=CCMP
+Salvează și specifică acest fișier în sistem:
+
+sudo nano /etc/default/hostapd
+Caută linia cu #DAEMON_CONF="" și înlocuiește cu:
+
+DAEMON_CONF="/etc/hostapd/hostapd.conf"
+Activează serviciile:
+
+sudo systemctl unmask hostapd
+sudo systemctl enable hostapd
+sudo systemctl start hostapd
+sudo systemctl restart dnsmasq
+Acum Raspberry Pi funcționează ca Access Point. Testează conectându-te la rețeaua RaspberryPi-AP.
+
+2. Configurarea unui server web pentru Captive Portal
+
+Pentru a afișa o pagină web când cineva se conectează la Wi-Fi, trebuie să instalăm un server web.
+
+Instalează Lighttpd
+sudo apt install -y lighttpd
+sudo systemctl enable lighttpd
+sudo systemctl start lighttpd
+Configurează o pagină de redirecționare
+Creează un fișier HTML simplu:
+
+sudo nano /var/www/html/index.html
+Adaugă:
+
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Captive Portal</title>
+    <meta http-equiv="refresh" content="0;url=http://192.168.4.1/portal.html" />
+</head>
+<body>
+    <h1>Welcome to RaspberryPi Captive Portal!</h1>
+</body>
+</html>
+Creează și pagina de portal:
+
+sudo nano /var/www/html/portal.html
+Adaugă conținutul dorit.
+
+Repornește serverul:
+
+sudo systemctl restart lighttpd
+3. Capturarea traficului DNS pentru a forța captive portal
+
+Trebuie să redirecționăm toate cererile HTTP către pagina noastră.
+
+Configurează iptables pentru a intercepta cererile
+sudo iptables -t nat -A PREROUTING -p tcp --dport 80 -j DNAT --to-destination 192.168.4.1
+sudo iptables -t nat -A POSTROUTING -j MASQUERADE
+Pentru a salva regulile:
+
+sudo sh -c "iptables-save > /etc/iptables.ipv4.nat"
+Editează /etc/rc.local:
+
+sudo nano /etc/rc.local
+Adaugă înainte de exit 0:
+
+iptables-restore < /etc/iptables.ipv4.nat
+Salvează și închide.
+
+Finalizare și testare
+
+Repornește Raspberry Pi:
+sudo reboot
+Conectează-te la rețeaua RaspberryPi-AP.
+Deschide browser-ul → ar trebui să te redirecționeze automat spre Captive Portal.

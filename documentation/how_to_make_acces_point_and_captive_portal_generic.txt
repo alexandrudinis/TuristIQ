@@ -1,0 +1,137 @@
+# Configurarea Raspberry Pi ca Access Point cu Captive Portal
+
+Aceasta documentatie detaliaza pasii urmati pentru a transforma un Raspberry Pi intr-un access point cu captive portal, folosind `hostapd`, `dnsmasq` si `lighttpd`.
+
+---
+## 1. Instalarea pachetelor necesare
+```bash
+sudo apt update && sudo apt upgrade -y
+sudo apt install hostapd dnsmasq lighttpd -y
+```
+
+### Pornirea automata a serviciilor
+```bash
+sudo systemctl unmask hostapd
+sudo systemctl enable hostapd dnsmasq lighttpd
+```
+
+---
+## 2. Configurarea `hostapd`
+Fisierul de configurare: `/etc/hostapd/hostapd.conf`
+```ini
+interface=wlan0
+driver=nl80211
+ssid=RaspberryPiAP
+hw_mode=g
+channel=7
+wmm_enabled=0
+macaddr_acl=0
+auth_algs=1
+ignore_broadcast_ssid=0
+wpa=2
+wpa_passphrase=raspberry
+wpa_key_mgmt=WPA-PSK
+rsn_pairwise=CCMP
+```
+Setarea fisierului de configurare pentru `hostapd` in `/etc/default/hostapd`:
+```bash
+sudo nano /etc/default/hostapd
+```
+Adauga:
+```ini
+DAEMON_CONF="/etc/hostapd/hostapd.conf"
+```
+
+---
+## 3. Configurarea `dnsmasq`
+Fisierul de configurare: `/etc/dnsmasq.conf`
+```ini
+interface=wlan0
+dhcp-range=192.168.4.2,192.168.4.200,255.255.255.0,24h
+dhcp-option=3,192.168.4.1
+dhcp-option=6,192.168.4.1
+dhcp-authoritative
+address=/captive.portal/192.168.4.1
+```
+
+---
+## 4. Setarea adresei statice pentru `wlan0`
+Fisier: `/etc/dhcpcd.conf`
+```ini
+interface wlan0
+static ip_address=192.168.4.1/24
+nohook wpa_supplicant
+```
+
+---
+## 5. Configurarea `lighttpd` pentru Captive Portal
+Fisier: `/etc/lighttpd/lighttpd.conf`
+```ini
+server.modules += ( "mod_alias", "mod_redirect" )
+server.document-root = "/var/www/html"
+server.port = 80
+url.redirect = (".*" => "http://192.168.4.1/index.html")
+```
+Repornirea serviciului:
+```bash
+sudo systemctl restart lighttpd
+```
+
+---
+## 6. Script pentru asigurarea pornirii corecte a `wlan0` si serviciilor
+Fisier: `/etc/rc.local`
+```bash
+#!/bin/bash
+
+# Pornire interfata WiFi
+rfkill unblock wifi
+sudo ifconfig wlan0 up
+
+# Asteapta pana cand wlan0 este activ
+while ! ip link show wlan0 | grep -q "state UP"; do
+    sleep 1
+done
+
+# Porneste serviciile
+sudo systemctl start hostapd
+sudo systemctl start dnsmasq
+
+# Log pentru debugging
+echo "Startup completed" > /tmp/startup.log
+
+# Restart pentru hostapd pentru a preveni probleme
+timeout 10 sudo systemctl restart hostapd
+
+exit 0
+```
+
+---
+## 7. Activarea portalului captiv
+Fisier: `/etc/network/interfaces`
+```ini
+post-up iptables -t nat -A PREROUTING -i wlan0 -p tcp --dport 80 -j DNAT --to-destination 192.168.4.1:80
+post-up iptables -t nat -A POSTROUTING -o eth0 -j MASQUERADE
+```
+Salvarea regulilor `iptables`:
+```bash
+sudo iptables-save > /etc/iptables.ipv4.nat
+```
+
+---
+## 8. Debugging si verificari
+### Verificarea statusului serviciilor:
+```bash
+sudo systemctl status hostapd
+sudo systemctl status dnsmasq
+sudo systemctl status lighttpd
+```
+### Verificarea logurilor:
+```bash
+journalctl -u hostapd --no-pager | tail -n 20
+journalctl -u dnsmasq --no-pager | tail -n 20
+journalctl -u lighttpd --no-pager | tail -n 20
+```
+
+Acest setup permite utilizatorilor sa se conecteze la retea si sa fie directionati catre o pagina web fara acces la internet. 🚀
+
+

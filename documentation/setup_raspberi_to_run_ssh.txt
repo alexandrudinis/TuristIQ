@@ -1,0 +1,62 @@
+
+Pentru a configura Raspberry Pi să ruleze în mod SSH și să te conectezi la el fără monitor, urmează acești pași simpli:
+
+1. Scrie imaginea sistemului de operare pe cardul microSD
+
+(Dacă ai deja un sistem de operare instalat, poți sări peste acest pas)
+
+1.1. Descarcă Raspberry Pi OS
+
+1.2. Scrie imaginea pe cardul microSD
+
+2. Activează SSH înainte de primul boot
+
+După ce scrii imaginea pe card, trebuie să activezi SSH.
+
+2.1. Montează cardul microSD pe MacBook
+După ce ai scris imaginea, cardul va apărea ca un drive numit boot.
+
+2.2. Creează un fișier gol numit ssh
+Deschide Terminal și rulează:
+touch /Volumes/boot/ssh
+Nu trebuie să conțină nimic! Acest fișier va activa SSH la boot.
+3. Conectează Raspberry Pi la rețea
+
+Dacă ai Ethernet, îl poți conecta direct la router.
+Dacă vrei să folosești Wi-Fi, trebuie să configurezi rețeaua.
+
+3.1. Configurează Wi-Fi înainte de primul boot
+Creează un fișier numit wpa_supplicant.conf pe cardul SD:
+nano /Volumes/boot/wpa_supplicant.conf
+Adaugă următorul conținut (înlocuiește SSID și PASSWORD cu datele tale):
+ctrl_interface=DIR=/var/run/wpa_supplicant GROUP=netdev
+update_config=1
+country=RO
+
+network={
+    ssid="Numele_WiFi"
+    psk="Parola_WiFi"
+    key_mgmt=WPA-PSK
+}
+Salvează și ieși (Ctrl + X, apoi Y și Enter).
+4. Introdu cardul microSD în Raspberry Pi și pornește-l
+
+Conectează alimentarea la Raspberry Pi.
+Așteaptă 1-2 minute să booteze.
+5. Conectează-te prin SSH la Raspberry Pi
+
+5.1. Găsește IP-ul Raspberry Pi
+Dacă e conectat prin Wi-Fi, poți afla IP-ul:
+
+ping raspberrypi.local
+Dacă nu funcționează, verifică IP-ul în router sau folosește:
+
+arp -a | grep raspberrypi
+5.2. Conectează-te prin SSH
+În Terminal, rulează:
+
+ssh pi@raspberrypi.local
+Dacă nu merge, încearcă cu IP-ul:
+
+ssh pi@192.168.X.X
+Parola implicită este raspberry.
