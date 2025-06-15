@@ -1,2 +1,5 @@
 python-scripts/virtual-env
 .DS_Store
+generate/distilgpt2-finetuned
+generate/distilgpt2-finetuned2
+generate/results

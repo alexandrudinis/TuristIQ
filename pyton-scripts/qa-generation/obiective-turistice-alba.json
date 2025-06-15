@@ -1,0 +1,427 @@
+{
+    "judet": "Alba",
+    "turistic_objects": [
+        {
+            "id": "1",
+            "name": "Satul Geamăna",
+            "description": "Geamăna este un sat în comuna Lupșa din județul Alba, Transilvania, România. În urma operațiunilor miniere de la Roșia Poieni, satul a fost transformat în lac de decantare și acoperit de steril, printr-o serie de evenimente cunoscute drept dezastrul naturall de la Geamăna.",
+            "location": {
+                "county": "Alba",
+                "city": "Lupșa",
+                "latitude": "46.32806",
+                "longitude": "23.21000"
+            },
+            "category": "natural",
+			"activities": ["drumeție", "fotografie", "observare natură"],
+            "relevant_for": ["drumeție", "familie", "fotografie"],
+            "accommodation": ["Pensiunea Carmen", "Roua Muntelui"],
+            "nearby_attractions": ["Mănăstirea Lupșa", "Cascada Sipote", "Peștera Porțile Zmeilor"]
+        },
+        {
+            "id": "2",
+            "name": "Izbucul Tăuzului",
+            "description": "Izbucul Tăuzului este o arie protejată, cu o suprafaţă de un hectar, situată în vestul Transilvaniei, în Munții Bihorului, pe teritoriul satului Hodobana, comuna Arieșeni, județul Alba  Rezervația naturallă, inclusă în Parcul naturall Apuseni, este o zonă montană pe al cărui teritoriu se află un izvor cu activitate intermitentă (izbuc), ce funcționează pe principiul sifonului, cu o adâncime de 85 m. La baza unui perete stâncos, apele intrate prin peșterile Coiba Mică și Coiba Mare, ies la suprafaţă şi formează Izbucul Tăuz. Accesul către ochiul de apă este destul de ușor. Din centrul comunei Gârda de Sus se urmează cursul Văii Gârda, până se ajunge la izbuc.",
+            "location": {
+                "county": "Alba",
+                "city": "Arieșeni",
+                "latitude": "46.47611",
+                "longitude": "22.75778"
+            },
+            "category": "natural",
+			"activities": ["drumeție", "fotografie", "plimbare"],
+            "relevant_for": ["drumeție", "familie", "fotografie"],
+            "accommodation": ["Cabana Poiana Dealul Frumos", "Vraja muntelui"],
+            "nearby_attractions": ["Peștera Hodobana", "Peștera Coiba Mare"]
+        },
+        {
+            "id": "3",
+            "name": "Râpa Roșie",
+            "description": "Rapa Rosie este o rezervatie geologica cu o suprafata de 10 ha, situata la doar 3 km de orasul Sebes. Rapa Rosie se prezinta sub forma unor abrupturi impresionante datorita dimensiunilor lor si mai ales datorita faptului ca peretii sunt formati din pamant rosu. Peretii sai au inaltimi cuprinse intre 80 si 100 m. Apa ce sapa in lutul colinei are in jur de 60 milioane de ani, ea lasa in urma trecerii forme ciudate: coloane, turnuri, piramide, toate de culoare rosiatica. Este singura rezervatie din Romania de acest gen, formatiunile sale pot fi comparate cu cele intalnite in Marele Canion Colorado. Rapa a fost declarata monument al naturii in 1950, datorita frumusetii si unicitatii ei.",
+            "location": {
+                "county": "Alba",
+                "city": "Sebeș",
+                "latitude": "45.9553",
+                "longitude": "23.5737"
+            },
+            "category": "natural",
+			"activities": ["drumeție", "fotografie", "plimbare", "explorare"],
+            "relevant_for": ["drumeție", "familie", "fotografie", "geologie"],
+            "accommodation": ["Hotel Transilvania", "Hotel Leul de Aur"],
+            "nearby_attractions": ["Turnul Studentului"]
+        },
+        {
+            "id": "4",
+            "name": "Cheile Vălișoarei sau Aiudului",
+            "description": "Cheile Vălișoarei sau Cheile Aiudului se afla in judetul Alba, de-a lungul muntilor Apuseni si sunt considerate printre cele mai impresionante chei din bazinul Vaii Aiudului.  Altitudinea maxima in Cheile Aiudului este de 779 m iar cea minima, este de 425 m. In urma procesului de erodare a scoartei terestre, s-au format patru colturi calcaroase, Coltul Bogza si Coltul Vilii, asezate in partea dreapta iar in partea stanga se gasesc Coltul Cetatii si Doltul Diacului. In peretii cheilor, pe ambii versanti se gasesc pesteri si alte formatiuni carstice: lapiezuri, bolti, arcade. Pesterile adapostesc specii rare de nevertebrate si lilieci. In dreapta cheilor, cum se vine dinspre Aiud, se afla stanca numita Cetate, unde in secolul al XII-lea documentele atesta existenta cetatii Zachedeu. Cheile Aiudului mai sunt cunoscute si sub numele de Cheile Vaisoarei sau Cheile Poienii. Cheile Aiudului au fost declarate rezervatie naturalla geomorfologica si botanica datorita morfologiei terenului ce ofera un peisaj salbatic dar si datorita florei specifice.",
+            "location": {
+                "county": "Alba",
+                "city": "Livezile",
+                "latitude": "46.38859",
+                "longitude": "23.556134"
+            },
+            "category": "natural",
+			"activities": ["drumeție", "fotografie", "plimbare", "explorare", "speologie"],
+            "relevant_for": ["drumeție", "familie", "fotografie", "geologie", "speologie"],
+            "accommodation": ["Casa patru anotimpuri", "Cabana viselor"],
+            "nearby_attractions": ["Cascada Sipote", "Castelul Teleki", "Cetatea Aiudului"]
+        },
+        {
+            "id": "5",
+            "name": "Lacul Oașa",
+            "description": "Lacul Oasa este un lac de acumulare format pe Raul Sebes, situat la granita dintre judetul Alba si judetul Sibiu, in Masivul Sureanu. Situat la altitudinea de 1.255 m, cu o suprafata de 441ha si 136 mil. m3 de apa, este cel mai mare dintre lacurile de acumulare amenajate pe cursul raului Sebes. Lacul de acumulare Oasa se intinde intr-o zona montana cu aspect depresionar, versantii\nfiind acoperiti cu paduri de molid. Conditiile sunt favorabile pentru amatorii de pescuit. Acestia pot prinde cleni si pastravi (lacul a fost populat cu pastrav indigen si curcubeu). Lacul s-a format in Defileul Oasa, in zona confluentei raurilor Frumoasa si Slanele, in urma construirii Barajului Oasa, intrat in functiune in anul 1979. Barajul lacului Oasa are o inaltime de 92 m, latime la coronament 5 m si latimea 205 m. \nIstoric Lacul Oasa din Masivul Sureanu:\nDin anul 1980, aici a fost pusa in functiune centrala subterana Galceag, care valorifica potentialul energetic inmagazinat in acest lac.",
+            "location": {
+                "county": "Alba",
+                "city": "Oașa",
+                "latitude": "45.588",
+                "longitude": "23.628"
+            },
+            "category": "natural",
+			"activities": ["drumeție", "fotografie", "plimbare", "pescuit"],
+            "relevant_for": ["drumeție", "familie", "fotografie", "pescuit"],
+            "accommodation": ["Pensiunea Ayana", "Cabana Oasa"],
+            "nearby_attractions": ["Mănăstirea Oașa"]
+        },
+        {
+            "id": "6",
+            "name": "Cascada Sipote",
+            "description": "Cascada Sipote este situata in Muntii Trascaului, pe teritoriul judetului Alba. Are o inaltime de aproximativ 10 m si este considerata o cascada cu debit foarte mare. Spatiul rezultat prin eroziunea de la baza cascadei are aspectul unui mare lac involburat. Cascada Sipote este un fenomen carstic complex ce cuprinde: -un bazin de colectare a apei, parte a Platoului Bedeleu plin de doline si ponoare periodice situat la 1.100-1.200 m altitudine; 3 izbucuri situate 400 m mai jos sub peretele de stanca, cu debit mediu prin care apare la lumina apa colectata pe platou, dupa ce strabate pachetul gros de calcare; -un parau de 800 m lungime care coboara de la 700 m la 430 m altitudine pe o albie abrupta ce se varsa in Aries; -un mare numar de cascade de pana la 15 m inaltime rasfirate pe stanci sau baraje de travertin; -gururi de travertin, bazine construite ca niste baraje din depunerile de calcar. Accesul la Cascada Sipot se face cu usurinta, cu masina dinspre localitatea Sapanta sau pe jos dinspre Pasul Huta",
+            "location": {
+                "county": "Alba",
+                "city": "Sălciua",
+                "latitude": "46.398611111111",
+                "longitude": "23.42"
+            },
+            "category": "natural",
+			"activities": ["drumeție", "fotografie", "plimbare", "pescuit"],
+            "relevant_for": ["drumeție", "familie", "fotografie", "pescuit"],
+            "accommodation": ["Pensiunea Carmen", "Pensiunea Maria"],
+            "nearby_attractions": ["Peştera Huda lui Papara", "Peștera Porțile Zmeilor"]
+        },
+        {
+            "id": "7",
+            "name": "Turnul Studentului",
+            "description": "Turnul Studentului este situat in localitatea Sebes, judetul Alba. Zidul are o grosime de 1 m, are forma patrata cu laturile de 5 metri grosime, are parter si 4 nivele. Denumirea de „Turnul Studentului” vine de la evenimentul legat de atacul turcesc din 1438, cand intreg sudul Transilvaniei a fost devastat. Din grupul de locatari ce au rezistat pana la sfarsitul bataliei facea parte si un student cunoscut sub numele de studentul din Romos. Bine de stiut:\nStudentul isi povesteste viata in „Tratat despre datinile, moravurile, conditiile de viata si rautatea turcilor”, carte aparuta in prima editie la Roma in anul 1475. Turnul a fost construit in sec XV-lea, fiind confectionat din piatra bruta de rau, legata cu mortar de var.",
+            "location": {
+                "county": "Alba",
+                "city": "Sebeș",
+                "latitude": "45.9553",
+                "longitude": "23.5737"
+            },
+            "category": "istoric",
+			"activities": ["fotografie", "plimbare", "istoric", "city break"],
+            "relevant_for": ["familie", "fotografie", "istoric", "city break"],
+            "accommodation": ["Hotel Transilvania", "Hotel Leul de Aur"],
+            "nearby_attractions": ["Râpa Roșie"]
+        },
+        {
+            "id": "8",
+            "name": "Castelul Teleki",
+            "description": "Castelul Teleki a fost construit in 1290, in cel mai inalt punct din zona din orasul Ocna Mures. Constructia medievala este amintita in documente pentru prima data in anul 1290, sub numele de Novum Castrum (Castelul Nou), indicand existenta unei fortificatii mai vechi pe acelasi amplasament, probabil din secolele al X-lea sau al XI-lea din care se mai pot vedea portiuni dintr-un val de pamant cu sant. Castelul a fost construit la sfarsitul secolului XIII, din ordinul regalitatii maghiare, pentru protectia salinei invecinate, fiind apoi amintit in documentele anilor 1336 si 1382. Mihai Viteazul a donat castelul de la Uioara de Sus sfetnicului sau, banul Mihalcea. Din acest edificiu se mai pot vedea azi ruinele unui turn pentagonal, reprezentand vechiul donjon. “Castelul Nou” medieval a fost daramat partial, in locul sau ridicandu-se intre anii 1850-1860 un impunator castel neogotic pentru familia nobiliara Banffy, edificiu care a intrat ulterior in proprietatea contilor Teleky. Din initiativa familiei Teleky in jurul castelului a fost amenajat un parc cu alei si arbori, printre care specii aclimatizate, unele fiind raritati dendrologice. Bine de stiut: In complexul castelului Teleki se mai gaseste si o biserica din anul 1300 construita in stil romanic.",
+            "location": {
+                "county": "Alba",
+                "city": "Ocna Mureș",
+                "latitude": "46.3821",
+                "longitude": "23.86000"
+            },
+            "category": "istoric",
+			"activities": ["fotografie", "plimbare", "istoric"],
+            "relevant_for": ["familie", "fotografie", "istoric"],
+            "accommodation": ["Hotel River", "Pensiunea Milexim"],
+            "nearby_attractions": []
+        },
+        {
+            "id": "9",
+            "name": "Teatrul de Păpuşi Prichindel din orașul Alba Iulia",
+            "description": "Teatrul de Păpuşi „PRICHINDEL” din Alba Iulia a fost înfiinţat de către Ministerul Culturii că teatru de păpuşi profesionist, cu personalitate juridică. De la înfiinţare a avut şi are conducere, administraţie, buget propriu. În medie, pe an se realizează un număr de două premiere şi două reluări. În decursul celor 60 de ani de existenţă, Teatrul de Păpuşi „PRICHINDEL” a participat la numeroase festivaluri atât în ţară, cât şi peste hotare. Teatrul de Păpuşi „PRICHINDEL” este o prezenţă activă în viaţa cetăţii: s-au organizat numeroase spectacole de caritate cu prilejul diferitelor evenimente – 1 Iunie, 1 Decembrie, sărbători de iarnă etc., s-au organizat expoziţii de fotografii şi afişe, s-a implicat în evenimentele şi serbările şcolare. Teatrul colaborează cu toate instituţiile de profil din ţară (Teatrul „Ţăndărica” Bucureşti, Teatrul „GONG” din Sibiu, Teatrul „PUCK” Cluj Napoca, Teatrul „Gulliver” Galaţi, Teatrul „Colibri” Craiova, Teatrul „Vasilache” Botoşani, Teatrul de animaţie Târgu Mureş, Universitatea de Artă Teatrală Târgu Mureş etc.), realizând schimburi de experienţă, turnee, festivaluri.  Istoric Teatrul de Păpuşi „PRICHINDEL din Alba Iulia: În perioada 1952-2012 s-au pus în scena un număr de peste 160 de premiere, prezentate în faţa a peste patru milioane de copii atât din judeţ, cât şi din ţară. Obiective principale de vizitat Teatrul de Păpuşi „PRICHINDEL: • Spectacolele de la Teatrul de Păpuşi „PRICHINDEL, dar şi Festivalul Internaţional „Poveşti” Alba Iulia Program de vizitare Teatrul de Păpuşi „PRICHINDEL: • Spectacolele încep de la ora 10:00 Tarif vizitare Teatrul de Păpuşi „PRICHINDEL: • Biletele se pot cumpăra de la sediul Teatrului, dar şi online de pe site-ul www.biletmaster.ro În apropiere de Teatrul de Păpuşi „PRICHINDEL mai puteți vizita următoarele obiective turistice: • Casa de Cultură a Studenţilor, Obeliscul lui Horia, Cloşca şi Crişan, Poarta I a cetăţii Vauban, Bastionul Saşilor-Cetatea Medievală, Muzeul Naţional al Unirii, Cetatea Alba Carolina Contact Teatrul de Păpuşi „PRICHINDEL” din Alba Iulia:",
+            "location": {
+                "county": "Alba",
+                "city": "Alba Iulia",
+                "latitude": "46.07139",
+                "longitude": "23.57306"
+            },
+            "category": "cultural",
+			"activities": ["fotografie", "plimbare", "activitati pentru copii", "city break"],
+            "relevant_for": ["familie", "fotografie", "activitati pentru copii", "city break"],
+            "accommodation": ["Hotel Transilvania", "Hotel Elisabeta", "Hotel Cetate"],
+            "nearby_attractions": ["Muzeul Național al Unirii din orașul Alba Iulia"]
+        },
+        {
+            "id": "10",
+            "name": "Obeliscul lui Horea, Cloșca și Crișan",
+            "description": "Obeliscul lui Horea, Cloșca și Crișan reprezintă un punct major de interes pentru locuitorii din oraș, dar și pentru turiștii ajunși în aceste locuri. Obeliscul lui Horea, Cloșca și Crișan este o sculptură ce se află la intrarea în cetatea Albei, fiind una dintre cele mai remarcabile opere ale sculptorului Ion Negrulea. Horea, Cloșca și Crișan sunt trei personalități cu care istoria orașului Alba se remarcă.\nAcest monument este realizat pentru a cinsti memoria luptătorilor din anul 1784. Obeliscul lui Horea, Cloșca si Crișan are la bază un frumos basorelief ce îi înfățișează pe cei trei, având o înălțime de 20 metri. În acest mod Obeliscul lui Horea, Cloșca și Crișan reprezintă o atracție turistică importantă pentru întreaga regiune a Albei.  Istoric Obeliscul lui Horea, Cloșca și Crișan din Albă Iulia: Aceasta sculptură a fost construită în anul 1937, fiind finanțată de societatea ASTRA din Alba Iulia. În interiorul soclului care sprijină obeliscul se află o celulă simbolică, cu inscripţia „Smerită închinare lui Horea, Cloşca şi Crişan”.",
+            "location": {
+                "county": "Alba",
+                "city": "Alba Iulia",
+                "latitude": "46.07139",
+                "longitude": "23.57306"
+            },
+            "category": "istoric",
+			"activities": ["fotografie", "plimbare", "istoric", "city break"],
+            "relevant_for": ["familie", "fotografie", "istoric", "city break"],
+            "accommodation": ["Hotel Transilvania", "Hotel Elisabeta", "Hotel Cetate"],
+            "nearby_attractions": ["Muzeul Național al Unirii din orașul Alba Iulia"]
+        },
+        {
+            "id": "11",
+            "name": "Muzeul Național al Unirii din orașul Alba Iulia",
+            "description": "Muzeul Național al Unirii deține două clădiri cu valoare de monument istoric. Muzeul din Alba Iulia a fost inaugurat în 1888 din inițiativa Societății de istoric, arheologie și științele naturii din Comitatul Alba Inferioară, avându-l ca director pe renumitul arheolog Adalbert Cserny. În 1929, sub egida ASTREI, a fost organizat ca Muzeu al Unirii. Bogatelor colecții arheologice li s-au adăugat piese valoroase referitoare la istoria modernă a românilor. În 1992 a devenit Muzeul Național al Unirii, subordonat direct Ministerului Culturii. Muzeul prezintă publicului arheologie preistorică (ceramică, unelte și arme din piatră, bronz, fier), dacică – provenind de la cetățile dacice Craiva, Cugir și Căpâlna (ceramică, monumente, unelte, arme și podoabe din fier, bronz, argint), romană – provenind din marele centru urban Apulum (monumente epigrafice, sculpturale, gliptică, numismatică, vase ceramice, lucerne, unelte și arme din fier, obiecte de podoabă), medievală (ceramică, bijuterii și obiecte din aur, argint și bronz din secolele VIII – X din necropolele dezvelite la Alba Iulia, Blandiana și Ghirbom, cahle, arme, sigilii nobiliare și ale orașului Alba Iulia), istoric (documente, fotografii și obiecte memoriale legate de Revoluția de la 1848, Memorandum, Unirea de la 1 Decembrie 1918), periodice – cărți, colecții de etnografie și artă populară (port, țesături, ceramică, icoane pe lemn și sticlă, obiecte din metal și lemn), numismatică (antică, medievală și modernă), bibliotecă (55.000 volume).",
+            "location": {
+                "county": "Alba",
+                "city": "Alba Iulia",
+                "latitude": "46.07139",
+                "longitude": "23.57306"
+            },
+            "category": "istoric",
+            "activities": ["fotografie", "plimbare", "istoric", "city break"],
+            "relevant_for": ["familie", "fotografie", "istoric", "city break"],
+            "accommodation": ["Hotel Transilvania", "Hotel Elisabeta", "Hotel Cetate"],
+            "nearby_attractions": ["Cetatea Alba Carolina", "Catedrala Romano-Catolică"]
+        },
+        {
+            "id": "12",
+            "name": "Cetatea Alba Carolina",
+            "description": "Cetatea Alba Carolina face parte din categoria celor mai impunatoare cetati din Romania si din Sud-Estul Europei. Modul in care a fost conservata cetatea din Alba Carolina este unul remarcabil, fiind una dintre cele mai frumoase fortificatii de acest gen din tara, destul de bine ingrijita. In ultima perioada cetatea Alba Carolina a fost supusa unor numeroase lucrări de restaurare si conservare pentru a putea fi introdusa in circuitul turistic national. Inca de cand s-au finalizat lucrarile, aceasta a fost vizitata de mii de turisti. Peisajul in care este asezata cetatea Alba Carolina este destul de bine pus in valoare de catre autoritati. De asemenea, de la cetate putem porni la drum pe sase trasee importante: Traseul celor Trei Fortificatii, Traseul Eroii Neamului Românesc, Traseul Portilor, Traseul Sudic, Traseul Estic si Traseul Nordic. In drumul nostru pe aceste trasee vom putea remarca anumite elemente istorice de o deosebita valoare. De asemenea, nu avem cum sa nu remarcam cladirile cu importanta istorica, dar si garda pedestra si calare din interiorul cetatii Alba Carolina. Soldatii care asigura securitatea pe cele sase trasee turistive sunt imbracati in uniforme militare de tip austriac, pentru a readuce o parte din viata de altadata a cetatii. Acestia pot fi admirati in fiecare zi incepand cu ora 11.30, atunci cand are loc ceremonia de schimbare a garzilor. Cu toate acestea, sambata ceremonia este mult mai ampla si se manifesta chiar cu executarea unor salve de tun, amplasate pe Traseul celor Trei Fortificatii.  Istoric Cetatea Alba Carolina din Alba Iulia: Cetatea Alba Carolina este de tip Vauban, fiind construita intre anii 1715-1738 de militarii austrieci.",
+            "location": {
+                "county": "Alba",
+                "city": "Alba Iulia",
+                "latitude": "46.07139",
+                "longitude": "23.57306"
+            },
+            "category": "istoric",
+			"activities": ["fotografie", "plimbare", "istoric", "city break"],
+            "relevant_for": ["familie", "fotografie", "istoric", "city break"],
+            "accommodation": ["Hotel Transilvania", "Hotel Elisabeta", "Hotel Cetate"],
+            "nearby_attractions": ["Muzeul Național al Unirii din orașul Alba Iulia", "Catedrala Romano Catolică"]
+        },
+        {
+            "id": "13",
+            "name": "Catedrala Romano Catolică",
+            "description": "Catedrala Romano-Catolica din Alba-Iulia face parte din categoria celor mai insemnate monumente arhitecturale romanesti. Stilul sau arhitectural incearca sa imbine elementele gotice cu cele romanice, fiind inspirate din timpurile medievale. Catedrala Romano-Catolica din Alba Iulia a fist ridicata in secolul al XVIII-lea, avand in alcatuirea sa trei abside, un turn peste un careu si doua turnuri peste latura de vest, cosntructorul dorind sa o modeleze asemenea unei basilici cu trei nave. Potrivit specialistilor una dintre cele mai importante piese arhitecturale ce dateaza inca din Renastere în Transilvania este capela „Lazo”, fiind situata in nordul Catedralei Romano-Catolice din Alba-Iulia. Aceasta capela incearca sa descrie aproape in amanunt cateva elemente gotice, prezentand nervuri, dar si o bolta a caror picturi reprezinta marile personalitati ale vremii.  Istoric Catedrala Romano Catolica din Alba Iulia: Obiective principale de vizitat la Catedrala Romano Catolica din Alba Iulia:\nDaca intram in Catedrala Romano-Catolica din Alba Iulia vom putea remarca sarcofagele lui Iancu de Hunedoara, Ioan Sigismund, regina Isabella, Johannes Miles si Ladislau – fiul mai mare al lui Iancu de Hunedoara.",
+            "location": {
+                "county": "Alba",
+                "city": "Alba Iulia",
+                "latitude": "46.07139",
+                "longitude": "23.57306"
+            },
+            "category": "religios",
+			"activities": ["fotografie", "plimbare", "istoric", "city break"],
+            "relevant_for": ["familie", "fotografie", "istoric", "city break"],
+            "accommodation": ["Hotel Transilvania", "Hotel Elisabeta", "Hotel Cetate"],
+            "nearby_attractions": ["Muzeul Național al Unirii din orașul Alba Iulia", "Cetatea Alba Carolina"]
+        },
+        {
+            "id": "14",
+            "name": "Catedrala Încoronării",
+            "description": "Construita in perioada 1921-1923, catedrala din Alba Iulia a servit drept loc de incoronare in data de 15 octombrie 1922. Denumirea a fost data tinandu-se cont de acest moment plin de solemnitate, cel al incoronarii al suveranilor Romaniei Mari. Constructia a avut drept punct de plecare planurile cruciei grecesti, imitand-o aproape perfect. Picturile sale in fresca sunt destul de admirate zilnic de sute de turisti, desenul catedralei fiind realizat de Constantin Petrescu. Tot pe peretii catedralei sunt pictati regele Ferdinand si sotia sa Maria, la ziua Incoronarii lor in acest lacas religios. Mobilierul, dar si obiectele de decorare sunt realizate respectand stilul brancovenesc. Atunci cand pasesti in interiorul curtii sale nu ai cum sa nu remarci turnul clopotnita, cu o inaltime de peste 58 de metri, avand cupola sprijinita pe coloane. Ideea cladirii catedralei a fost sugerata de catre Nicolae Iorga, odata cu discutiile aprinse pe tema incoronarii celor doi suverani. De aceea, marimea catedralei nu este una de neglijat, fiind intinsa pe o suprafata de circa 750 mp, cu o inaltime de 40 metri. Cu toate ca reprezinta un lacas de cult, catedrala Incoronarii din Alba Iulia poarta pe umerii sai o parte insemnata din istoria statului romanesc unit – aceea a instaurarii monarhiei. De aceea, toti cei care o viziteaza de-a lungul timpului vor putea constitui parte integranta din demersul mai marilor vremii…",
+            "location": {
+                "county": "Alba",
+                "city": "Alba Iulia",
+                "latitude": "46.07139",
+                "longitude": "23.57306"
+            },
+            "category": "religios",
+            "activities": ["fotografie", "plimbare", "istoric", "religios"],
+            "relevant_for": ["familie", "fotografie", "istoric", "religios"],
+            "accommodation": ["Hotel Transilvania", "Hotel Elisabeta", "Hotel Cetate"],
+            "nearby_attractions": ["Catedrala Romano Catolică", "Muzeul Național al Unirii din orașul Alba Iulia", "Cetatea Alba Carolina"]
+        },
+        {
+            "id": "15",
+            "name": "Biblioteca Batthyaneum",
+            "description": "Biblioteca Batthyaneum din Alba Iulia reprezintă un obiectiv turistic însemnat al localității Alba Iulia, fiind un edificiu destul de vechi, adăpostind colecții de carte importante. În interiorul său, aceasta adăpostește colecții de carte impresionante – aici regăsindu-se cele mai vechi tipărituri ale țării. Așadar, iubitorii de carte si de istoric se pot delecta cu cele mai rare si valoroase manuscrise. Putem aminti: Codex Aureus, Psaltirea lui David, Evangheliarul de la Lorsch, Biblia Sacra, Codex Burgundus, Biblia lui Serban Cantacuzino, Noul Testament de la Belgrad, Palia de la Orastie. În anul 1792 aici a fost fondat primul observator astronomic al țării. Biblioteca Batthyaneum din Alba Iulia a luat ființă pe vechiul sediu al bisericii trinitarienilor. Începand cu anul 1780, biserica a fost desființată, în sediul sau instalandu-se o vestită bibliotecă. Initiativa infiintarii bibliotecii i-a apartinut episcopului Transilvaniei Ignatiu Bathyani. Acesta era cunoscut printre toti locuitorii orasului, dar si in intreg tinutul arcului carpatic ca fiind un mare iubitor de carte, arta si cultural.",
+            "location": {
+                "county": "Alba",
+                "city": "Alba Iulia",
+                "latitude": "46.07139",
+                "longitude": "23.57306"
+            },
+            "category": "cultural",
+            "activities": ["cultural", "studiere manuscrise", "sa imprumut carti", "educatie", "acces internet"],
+            "relevant_for": ["cultural", "studiere manuscrise", "educatie", "sa imprumut carti", "acces internet"],
+            "accommodation": ["Hotel Transilvania", "Hotel Elisabeta", "Hotel Cetate"],
+            "nearby_attractions": ["Catedrala Romano Catolică", "Muzeul Național al Unirii din orașul Alba Iulia", "Cetatea Alba Carolina"]
+        },
+        {
+            "id": "16",
+            "name": "Cetatea Aiudului",
+            "description": "Cetatea Aiudului este situata in zona centrala a orasului Aiud, la aproximativ 30 km distanta de municipiul Alba Iulia si la circa 36 km de Turda. Cetatea Aiudului este un complex de arhitectura medievala cuprinzand mai multe edificii, este cel mai important obiectiv turistic de pe teritoriul asezarii. In plan orizontal cetatea are forma unui pentagon cu laturile inegale. La unghiurile de intalnire ale zidurilor si la mijlocul laturilor lungi ale acestora, sunt adosate turnuri cu patru, cinci si sapte laturi. In interiorul cetatii sunt amplasate doua edificii de cult si patru edificii din secolele XVIII si XIX, acestea din urma apartinand acum cultului reformat calvin. Cel mai important edificiu este biserica construita in stil gotic transilvanean la sfarsitul secolului al XV – lea. Cetatea dateaza din sec XIII-XVI, este una dintre cele mai vechi fortificatii urbane din Transilvania cu ziduri groase de peste 1 m.",
+            "location": {
+                "county": "Alba",
+                "city": "Aiud",
+                "latitude": "46.3108",
+                "longitude": "23.7176"
+            },
+            "category": "istoric",
+			"activities": ["fotografie", "plimbare", "istoric"],
+            "relevant_for": ["familie", "fotografie", "istoric"],
+            "accommodation": ["Hotel Magnolia", "Casa domeniile vinului"],
+            "nearby_attractions": ["Cetatea Trascăului"]
+        },
+        {
+            "id": "17",
+            "name": "Cascada Pisoaia",
+            "description": "Cascada Pisoaia situata in comuna Vidra, satul Nemesti, impresioneaza prin inaltimea sa de aproximativ 18 m. Rezervatia peisagistica Cascada Pisoaia se afla pe un prag stancos de calcare, incadrata intr-o padure de fag si arbori izolati de rasinoase. Apele din zona fiind bogate in calcar acopera totul cu depuneri, si dau nastere la numeroase formatiuni calcaroase, unele chiar spectaculoase. Formatiunile calcaroase maresc spectaculozitatea in zona. Obiective turistice in apropierea Cascadei Pisoaia: Dealul cu melci, Cheile Vaii Morii, Muzeul Memorial Avram Iancu, Gaina cu Targul de fete. Bine de stiut:\nCascada Pisoaia este Rezervatie peisagistica cu o suprafata de 2.5 ha",
+            "location": {
+                "county": "Alba",
+                "city": "Vidra",
+                "latitude": "46.3587",
+                "longitude": "22.9401"
+            },
+            "category": "natural",
+			"activities": ["fotografie", "plimbare", "pescuit", "picnic"],
+            "relevant_for": ["familie", "fotografie", "pescuit", "picnic"],
+            "accommodation": ["Pensiunea Apuseni"],
+            "nearby_attractions": ["Pensiunea Drumul Iancului", "Pensiunea Casa Iancului"]
+        },
+        {
+            "id": "18",
+            "name": "Mănăstirea Oașa",
+            "description": "Manastirea Oasa este o mânăstire relativ noua, aflata in comuna Sugag din judetul Alba. Aflata la 70 de kilometri sud fata de Sebes si la 57 de kilometri nord-est fata de Petrosani, manastirea este o oaza de liniste. Complexul manastiresc a fost construit in colonia Fetitei, din Valea Frumoasei, pe un platou, la poalele unui deal acoperit cu paduri de conifere. Privind de pe acest platou, in fata ni se infatiseaza o priveliste foarte frumoasa, cu lacul de acumulare si hidrocentrala electrica jos, iar mai sus, coamele muntilor acoperite cu padure de conifere. Situata la 40 de kilometri fata de cea mai apropiata asezare umana si la peste 1.400 de metri altitudine, intr-o zona cu multa liniste si aer curat, manastirea ofera sansa, in special tinerilor, de a cunoaste si a gusta din bucuria vietii duhovnicesti autentice. Biserica este din lemn, pe fundatie de piatra, in forma de cruce. Are o singura turla. Este acoperita cu sindrila. Biserica de lemn a manastirii a fost pictata in tehnica fresca intre anii 1985-1986 de catre pictorul Liviu Dumbrava din Gura Humorului. Manastirea este inchinata Adormirii Maicii Domnului, praznuita la data de 15 august, si Sfantului Mare Mucenic Pantelimon, al doilea hram, praznuit la data de 27 iulie. Pana in anul 2000 a fost manastire de maici, iar apoi, din cauza accesului greu, fiind la 1.400 altitudine, s-a transformat in manastire de calugari.",
+            "location": {
+                "county": "Alba",
+                "city": "Șugag",
+                "latitude": "45.5707961",
+                "longitude": "23.5694096"
+            },
+            "category": "religios",
+			"activities": ["fotografie", "plimbare", "religios"],
+            "relevant_for": ["familie", "fotografie", "religios"],
+            "accommodation": ["Casa Transalpina", "Vila Rodica"],
+            "nearby_attractions": ["Cetatea Trascăului"]
+        },
+        {
+            "id": "19",
+            "name": "Peştera Huda lui Papara",
+            "description": "Pestera Huda lui Papara se află situată în Munţii Trascăului, fiind una dintre cele mai însemnate formaţiuni de acest tip din întreaga ţară. Potrivit speologilor, peştera este cea mai lungă, dar şi cea mai dificilă din România, având în interiorul său un curs subteran destul de lung şi o veritabila cascadă. Denumirea peşterii a fost dată folosindu-se de regionalismul „huda”care înseamnă adăpost, groapă, gaură în pământ, iar „papara”de la conducătorul creştin „papa”. Aceasta simbolizează adăpostul conducătorului religios. Intrarea în peşteră se face la o altitudine de circa 567 metri. În interior vom putea admira un veritabil depozit de chiropterit. În drumul prin peşteră, turiştii vor trebui sa escaladeze Baricada Mare. Tot aici ei vor ajunge în zona „La lanţuri”, dar şi în Labirintul Ludusan ori în Sala Tăcerii. Groapa Leilor are o denivelare de 102 metri. Dinspre Sala Crucii se poate ajunge la Cascada Gemanată. Foarte aproape de ea este capătul peşterii, intitulat de localnici drept „Lumea Frământată”.  Istoric Peştera Huda lui Papara din satul Sub Piatră: Pestera Huda lui Papara a fost deschisă spre vizitare începand cu anul 1986. Cu toate acestea, viiturile au distrus amenajarea sa, în prezent putând fi strabătută numai de specialişti experimentaţi. Obiective principale de vizitat Peştera Huda lui Papara: • Pe lângă tabloul naturall din peşteră în care există şi o cascadă, aici se regăseşte cea mai mare colonie de lilieci din întreaga Europa, specii numeroase cu înfăţişări variate. În interior poate fi admirată şi Sala Minunilor, ce are o înălţime de circa 102 metri.",
+            "location": {
+                "county": "Alba",
+                "city": "Sălciua",
+                "latitude": "46.398611111111",
+                "longitude": "23.42"
+            },
+            "category": "natural",
+			"activities": ["drumeție", "fotografie", "plimbare", "speologie"],
+            "relevant_for": ["drumeție", "familie", "fotografie", "speologie"],
+            "accommodation": ["Pensiunea Carmen", "Pensiunea Maria"],
+            "nearby_attractions": ["Peștera Porțile Zmeilor", "Cascada Sipote"]
+        },
+        {
+            "id": "20",
+            "name": "Peștera Porțile Zmeilor",
+            "description": "Cea mai veche peștera din muntii Trascau, Pestera Porțile Zmeilor reprezinta unul dintre obiectivele pe care turistii nu il trec cu vederea atunci cand se aventureaza in zona. Situata in comuna Sălciua, judetul Alba, la o altitudine de 1.150 m, Pestera Porțile Zmeilor are o lungime interioara de 125 m. Numele pesterii provine de la podul naturall Poarta Zmeilor, care se afla la 5 m de intrarea in pestera. Acesta a rezultat in urma eroziunii, coroziunii si dizolvarii rocilor de calcar. In interiorul pesterii exista stalactite, stalacmite, scurgeri parietale, gururi, draperii, hornuri si depuneri de montmilch. De asemenea, in pestera se gasesc paianjeni, pseudoscorpioni, gasteropode, coleoptere chiroptere, carabide, precum si diverse rozatoare. O incursiune in Pestera Poarta Zmeilor poate fi interesanta si provocatoare, mai ales daca tinem cont de faptul ca podeaua este alunecoasa, iar bezna e totala.",
+            "location": {
+                "county": "Alba",
+                "city": "Sălciua",
+                "latitude": "46.398611111111",
+                "longitude": "23.42"
+            },
+            "category": "natural",
+			"activities": ["drumeție", "fotografie", "plimbare", "speologie"],
+            "relevant_for": ["drumeție", "familie", "fotografie", "speologie"],
+            "accommodation": ["Pensiunea Carmen", "Pensiunea Maria"],
+            "nearby_attractions": ["Peştera Huda lui Papara", "Cascada Sipote"]
+        },
+        {
+            "id": "21",
+            "name": "Cetatea Trascăului",
+            "description": "Cetatea Trascăului este situata in imediata apropierea a satului Colțești din comuna Rimetea, judetul Alba. Cetatea a fost construita in 1296 de catre subvoievodul Thoroczkay avand ca scop apararea si refugiul din calea hoardelor tatare. Fortificatia dateaza de la sfarsitul secolului XIII, fiind ridicata de subvoievodul Thoroczkay pe o stanca inalta. Scopul cetatii era de a apara si de a conferi refugiu in cazul atacurilor. Pe turnul sau nordic, inalt de peste 20 de metrii inca exista inscriptia care atribuie construirea cetatii familiei Thoroczkay.Mai tarziu in anul 1470 cetatea este confiscata de Matei Corvin si data în grija voievodului Transilvaniei insa dupa 40 de ani, in 1510 revine familiei Thoroczkay. In 1514 este devastata de taranii lui Gheoghe Doja iar lovitura de gratie este data de trupele imperiale austriece conduse de generalul Tiege care la 1713 distrug buna parte din cetate. Acest gest vine datorita opozitiei nobililor Thoroczkay anexarii Transilvaniei de catre Imperiul Habsburgic.",
+            "location": {
+                "county": "Alba",
+                "city": "Rimetea",
+                "latitude": "",
+                "longitude": ""
+            },
+            "category": "istoric",
+			"activities": ["drumeție", "fotografie", "plimbare", "istoric"],
+            "relevant_for": ["drumeție", "familie", "fotografie", "istoric"],
+            "accommodation": ["Casa 4 anotimpuri", "Pensiunea Soarelui"],
+            "nearby_attractions": ["Cetatea Aiudului"]
+        },
+        {
+            "id": "22",
+            "name": "Mănăstirea Lupșa",
+            "description": "Mânăstirea Lupșa se afla situată în județul Alba, în vârful Munților Apuseni. În prezent, Mânăstirea Lupșa a fost reconsolidată, reușind astfel să se păstreze amprentele istorici destul de bine, asigurându-i-se acesteia o durată de viață mai mare. Istoric Mânăstirea Lupșa din satul Mânăstire: Vechimea Mânăstirii Lupșa este destul de mare, peste aceasta trecând sute de ierni mohorâte și veri călduroase. Potrivit cercetătorilor, mânăstirea Lupșa este cea mai veche mânăstire din Munții Apuseni, fiind clădită în anul 1429 de boierul Stanislav, ce aparținea familiei Lupșa. În timpul regimurilor totalitare ce au străbătut teritoriul țării, dar și sub dominația Imperiului Habsburgic, Mânăstirea Lupșa a primit diverse lovituri. În secolul al XVIII-lea mânăstirea Lupșa urma să fie dărâmată, însă episcopul Petru Paul Aron s-a împotrivit acestei măsuri, reușind astfel să o declare monument storic. În anul 1820, mânăstirea Lupșa a fost dată în administrarea Bisericii Greco-catolice, urmând ca în anul 1948, aceasta să redevină mânăstire cu specific creștin ortodox. O vechime considerabilă au avut și chiliile construite în jurul Mânăstirii. În trecut, în interiorul său puteau fi educați copiii din regiune, aceasta servind drept școală, dar și ca un vestit atelier de pictură bisericească. Inițial, mânăstirea Lupșa a fost construită doar din altar și naos, urmând ca în anul 1810 să îi fie adăugate turla și pronaosul. Icoanele mânăstirii Lupșa datează din secolul al XVII-lea.",
+            "location": {
+                "county": "Alba",
+                "city": "Lupșa",
+                "latitude": "46.365505",
+                "longitude": "23.193544"
+            },
+            "category": "religios",
+			"activities": ["fotografie", "plimbare", "religios"],
+            "relevant_for": ["familie", "fotografie", "religios"],
+            "accommodation": ["Pensiunea Casa Apuseana"],
+            "nearby_attractions": ["Peștera Porțile Zmeilor", "Peştera Huda lui Papara"]
+        },
+        {
+            "id": "23",
+            "name": "Peștera Ghețarul de la Scărișoara",
+            "description": "Peștera Ghețarul de la Scărișoara reprezinta un punct de atracție principal pentru turiștii care ajung în aceste locuri pentru a vizita sistemul carstic Scărișoara. Intrarea in Ghetarul de la Scarisoara este de-a dreptul impresionanta, facandu-se printr-un aven, care are un diametru de 60 m, fiind amplasata chiar in crestele muntilor si in inima padurii. Chiar in mijlocul pesterii se afla un ghetar cu un volum impresionant de 75000 mc care are o vechime de peste 4.000 de ani, potrivit atestarilor documentare. Ghetarul de la Scarisoara are mai multe sali ce pot fi vizitate de turisti, insa calatoria acestora se incheie in sala Biserica, fiind intitulata si capat de drum al pesterii. Sala Mare si Biserica sunt dotate cu amenajari create de mana omului, avand scari metalice si podele de lemn. Cu toate acestea, atunci cand patrundeti în peștera Ghetarul de la Scarisoara este indicat sa aveti la indemana un echipament special care sa va apere de frig, temperaturile fiind mai tot timpul negative. Atunci cand va aflati in trecere pe la Ghetarul de la Scarisoara si va doriti s ail vizitati este indicat sa cereti sfatul unui ghid intrucat altfel este restrictionat accesul in interiorul pesterii. Bine de stiut: Pentru obtinerea unei imagini mai placute asupra pesterii Ghetarul de la Scarisoara, specialistii apreciaza ca este indicat sa o vizitati in ultimile luni ale iernii, observand astfel o frumusete de-a dreptul cutremuratoare.",
+            "location": {
+                "county": "Alba",
+                "city": "Gârda de Sus",
+                "latitude": "46.506056",
+                "longitude": "22.817305"
+            },
+            "category": "natural",
+			"activities": ["fotografie", "plimbare", "speologie", "drumetii"],
+            "relevant_for": ["familie", "fotografie", "speologie", "drumetii"],
+            "accommodation": ["Casa Brazilor", "Casa Silvia"],
+            "nearby_attractions": ["Peștera Poarta lui Ionele", "Peștera Hodobana"]
+        },
+        {
+            "id": "24",
+            "name": "Peștera Poarta lui Ionele",
+            "description": "Situata pe teritoriul comunei Gârda de Sus, județul Alba, peștera Poarta lui Ionele este locul în care ies la lumină apele ce se pierd în ponoarele și dolinele de pe Valea Oarba dintre Iapa (Dealul Frumos) și cătunul Mununa. Pestera nu este foarte mare. Are aproximativ 131 m lungime si se prezinta sub forma unei galerii inalte, fiind lipsita de formatiuni concretionare specifice pesterilor. Atragatoare mai ales prin cascada de tuf pe care au format-o apele ce ies din ea, pestera este usor de strabatut, fiind accesibila oricarui turist. In apropiere se mai afla pestera Ghetarul de sub Zguras. Pestera Poarta lui Ionele a fost reamenajata recent cu un pod de lemn peste Valea Ordancusei, un pod peste paraul ce iese din pestera, scari de beton/metal si balustrade pentru a facilita accesul turistilor la pestera. Pestera adaposteste doua colonii de lilieci protejati cu strictete in cadrul Uniunii Europene – liliecii cu aripi lungi. Totodata, in pestera au fost identificate chilopode, lipidoptere, diptere, troglobion, araneide, copepode etc.",
+            "location": {
+                "county": "Alba",
+                "city": "Gârda de Sus",
+                "latitude": "46.506056",
+                "longitude": "22.817305"
+            },
+            "category": "natural",
+			"activities": ["fotografie", "plimbare", "speologie", "drumetii"],
+            "relevant_for": ["familie", "fotografie", "speologie", "drumetii"],
+            "accommodation": ["Casa Brazilor", "Casa Silvia"],
+            "nearby_attractions": ["Peștera Hodobana", "Peștera Ghețarul de la Scărișoara"]
+        },
+        {
+            "id": "25",
+            "name": "Peștera Hodobana",
+            "description": "Situata in Muntii Bihor din Carpatii Occidentali, pe versantul stang al paraului Hodobana, care este un afluent al paraului Sohodol, Pestera Hodobana este o pestera activa, de mari dimensiuni. Descoperita in anul 1979, aceasta pestera este considerata un mister pentru speologia romaneasca. Pestera are o singura intrare ingusta si o retea foarte complicata de galerii. Speologii au descoperit aici o galerie de intrare de 25 de metri, iar apoi, dupa sute de metri, o stramtoare in Galeria Coralitelor. Initial au fost descoperite: Sala Dante, Marile Meandre si Sala Mamut. Ulterior s-a descoperit un sistem de galerii polietajat ce continua Marele Rau, care dupa 860 de metri se sfarseste int-o cascada inalta de 20 de metri, aflata in Sala Finala. Fauna este reprezentata de exemplare ca Myotis myotis (liliacul comun) si Limonia nubeculoasa. Intrucat are un traseu dificil, Pestera Hodobana poate fi parcursa doar de cei foarte bine antrenati si cu echipament adecvat. In urma mai multor expeditii de explorare, pestera a devenit a treia mare cavitate din tara ca dezvoltare, detinand un adevarat record mondial ca ritm de exploatare.",
+            "location": {
+                "county": "Alba",
+                "city": "Arieșeni",
+                "latitude": "46.47611",
+                "longitude": "22.75778"
+            },
+            "category": "natural",
+            "activities": [
+                "fotografie",
+                "plimbare",
+                "speologie",
+                "drumetii",
+                "ski",
+                "snowboard",
+                "mountain biking"
+            ],
+            "relevant_for": [
+                "familie",
+                "fotografie",
+                "speologie",
+                "drumetii",
+                "ski",
+                "snowboard",
+                "moutain biking"
+            ],
+            "accommodation": [
+                "Casa Natalia",
+                "Casa Arnica"
+            ],
+            "nearby_attractions": [
+                "Peștera Ghețarul de la Scărișoara",
+                "Peștera Poarta lui Ionele"
+            ]
+        }
+        ]
+}
